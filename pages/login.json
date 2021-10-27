@@ -1,0 +1,30 @@
+{
+  "tag": "main",
+  "id":  "mainPart",
+  "innerTags": [
+    {
+      "tag": "input",
+      "name":"nickname",
+      "type":"text",
+      "id":"nickname",
+      "placeholder":"Login"
+    },
+    {
+      "tag": "input",
+      "name":"password",
+      "type":"password",
+      "id":"password",
+      "placeholder":"Password"
+    },
+    {
+      "tag" : "button",
+      "id":"btnLogIn",
+      "innerText" : "Log In"
+    },
+    {
+      "tag" : "script",
+      "type":"text/javascript",
+      "src":"login.js"
+    }
+  ]
+}

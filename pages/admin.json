@@ -1,0 +1,84 @@
+{
+  "tag": "main",
+  "id":  "mainPart",
+  "innerTags": [
+    {
+      "tag" : "button",
+      "id":"btnGames",
+      "innerText" : "All games"
+    },
+    {
+      "tag" : "button",
+      "id":"btnUsers",
+      "innerText" : "All registered users"
+    },
+    {
+      "tag" : "input",
+      "id":"numberInput",
+      "innerText" : "Number"
+    },
+    {
+      "tag" : "button",
+      "id":"btnWatch",
+      "innerText" : "Watch"
+    },
+    {
+      "tag": "table",
+      "id":"tableLeaderboard",
+      "style":"display:none;border: 1px solid black;",
+      "innerText":" "
+    },
+    {
+      "tag": "table",
+      "id":"tableUsers",
+      "style":"display:none;border: 1px solid black;",
+      "innerText":" "
+    },
+    {
+      "tag" : "button",
+      "id":"btnLogIn",
+      "innerText" : "Log in"
+    },
+    {
+      "tag" : "button",
+      "id":"btnRegister",
+      "innerText" : "Register"
+    },
+    {
+      "tag": "table",
+      "id":"tableGames",
+      "style":"display:none;",
+      "innerText":" "
+    },
+    {
+      "tag" : "button",
+      "id":"btnWithPin",
+      "innerText" : "Use PIN"
+    },
+    {
+      "tag" : "input",
+      "type":"file",
+      "id" : "fileInput"
+    },
+    {
+      "tag" : "button",
+      "id":"btnImport",
+      "innerText" : "Import users"
+    },
+    {
+      "tag" : "button",
+      "id":"btnExport",
+      "innerText" : "Export users"
+    },
+    {
+      "tag" : "button",
+      "id":"btnDebug",
+      "innerText" : "Debug off"
+    },
+    {
+      "tag" : "script",
+      "type":"text/javascript",
+      "src":"admin.js"
+    }
+  ]
+}

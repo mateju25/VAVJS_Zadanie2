@@ -1,0 +1,45 @@
+{
+  "tag": "main",
+  "id":  "mainPart",
+  "innerTags": [
+    {
+      "tag": "input",
+      "name":"number",
+      "type":"text",
+      "id":"number",
+      "placeholder":"Number"
+    },
+    {
+      "tag": "input",
+      "name":"pin",
+      "type":"text",
+      "id":"pin",
+      "placeholder":"Pin"
+    },
+    {
+      "tag" : "button",
+      "id":"btnConnect",
+      "innerText" : "Connect"
+    },
+    {
+      "tag" : "button",
+      "id":"btnLeft",
+      "innerText" : "Left"
+    },
+    {
+      "tag" : "button",
+      "id":"btnSpace",
+      "innerText" : "Space"
+    },
+    {
+      "tag" : "button",
+      "id":"btnRight",
+      "innerText" : "Right"
+    },
+    {
+      "tag" : "script",
+      "type":"text/javascript",
+      "src":"usePin.js"
+    }
+  ]
+}

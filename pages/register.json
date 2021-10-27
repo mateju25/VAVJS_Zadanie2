@@ -1,0 +1,51 @@
+{
+  "tag": "main",
+  "id":  "mainPart",
+  "innerTags": [
+    {
+      "tag": "input",
+      "name":"fullname",
+      "type":"text",
+      "id":"fullname",
+      "placeholder":"Full name"
+    },
+    {
+      "tag": "input",
+      "name":"email",
+      "type":"email",
+      "id":"email",
+      "placeholder":"Email"
+    },
+    {
+      "tag": "input",
+      "name":"nickname",
+      "type":"text",
+      "id":"nickname",
+      "placeholder":"Nickname"
+    },
+    {
+      "tag": "input",
+      "name":"password",
+      "type":"password",
+      "id":"password",
+      "placeholder":"Password"
+    },
+    {
+      "tag": "input",
+      "name":"rptPassword",
+      "type":"password",
+      "id":"rptPassword",
+      "placeholder":"Repeat password"
+    },
+    {
+      "tag" : "button",
+      "id":"btnRegister",
+      "innerText" : "Register"
+    },
+    {
+      "tag" : "script",
+      "type":"text/javascript",
+      "src":"register.js"
+    }
+  ]
+}

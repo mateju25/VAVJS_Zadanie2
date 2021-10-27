@@ -1,0 +1,89 @@
+{
+  "tag": "main",
+  "id":  "mainPart",
+  "innerTags": [
+    {
+      "tag" : "canvas",
+      "id":"canvasId"
+    },
+    {
+      "tag" : "br"
+    },
+    {
+      "tag" : "button",
+      "id":"btnStart",
+      "innerText" : "Start"
+    },
+    {
+      "tag" : "button",
+      "id":"btnReset",
+      "innerText" : "Reset"
+    },
+    {
+      "tag" : "button",
+      "id":"btnMusic",
+      "innerText" : "Play music"
+    },
+    {
+      "tag" : "br"
+    },
+    {
+      "tag" : "label",
+      "id":"levelId",
+      "innerText" : "Level: 1"
+    },
+    {
+      "tag" : "br"
+    },
+    {
+      "tag" : "label",
+      "id":"scoreId",
+      "innerText" : "Score: 0"
+    },
+    {
+      "tag" : "br"
+    },
+    {
+      "tag" : "label",
+      "id":"speedId",
+      "innerText" : "Speed: 1024"
+    },
+    {
+      "tag" : "br"
+    },
+    {
+      "tag" : "label",
+      "id":"maxScore",
+      "innerText" : "Max score:"
+    },
+    {
+      "tag" : "br"
+    },
+    {
+      "tag" : "label",
+      "id":"maxLevel",
+      "innerText" : "Max level:"
+    },
+    {
+      "tag" : "br"
+    },
+    {
+      "tag" : "label",
+      "id":"number",
+      "innerText" : "Game number:"
+    },
+    {
+      "tag" : "br"
+    },
+    {
+      "tag" : "label",
+      "id":"pin",
+      "innerText" : "Pin:"
+    },
+    {
+      "tag" : "script",
+      "type":"text/javascript",
+      "src":"game.js"
+    }
+  ]
+}

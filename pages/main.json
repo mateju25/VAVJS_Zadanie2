@@ -1,0 +1,63 @@
+{
+    "tag": "main",
+    "id":  "mainPart",
+    "innerTags": [
+        {
+            "tag" : "button",
+            "id":"btnLeaderboard",
+            "innerText" : "All games"
+        },
+        {
+            "tag" : "input",
+            "id":"numberInput",
+            "innerText" : "Number"
+        },
+        {
+            "tag" : "button",
+            "id":"btnWatch",
+            "innerText" : "Watch"
+        },
+        {
+            "tag": "table",
+            "id":"tableLeaderboard",
+            "style":"display:none;border: 1px solid black;",
+            "innerText":" "
+        },
+        {
+            "tag" : "button",
+            "id":"btnStart",
+            "innerText" : "Start"
+        },
+        {
+            "tag" : "button",
+            "id":"btnLogIn",
+            "innerText" : "Log in"
+        },
+        {
+            "tag" : "button",
+            "id":"btnRegister",
+            "innerText" : "Register"
+        },
+        {
+            "tag": "table",
+            "id":"tableGames",
+            "style":"display:none;",
+            "innerText":" "
+        },
+        {
+            "tag" : "button",
+            "id":"btnWithPin",
+            "innerText" : "Use PIN"
+        },
+        {
+            "tag" : "button",
+            "id":"btnDebug",
+            "innerText" : "Debug off"
+        },
+        {
+            "tag" : "script",
+            "type":"text/javascript",
+            "src":"main.js"
+        }
+    ]
+}

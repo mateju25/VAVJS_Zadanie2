@@ -1,0 +1,21 @@
+{
+  "tag": "main",
+  "id":  "mainPart",
+  "innerTags": [
+    {
+      "tag" : "canvas",
+      "id":"canvasId"
+    },
+    {
+      "tag" : "label",
+      "id":"labelId",
+      "innerText": "",
+      "style": "display: none"
+    },
+    {
+      "tag" : "script",
+      "type":"text/javascript",
+      "src":"watch.js"
+    }
+  ]
+}
