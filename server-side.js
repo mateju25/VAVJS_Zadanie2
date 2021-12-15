@@ -272,6 +272,8 @@ router.get('/loginInit', function (req, res) {
     } else {
         consoleDebug('logged in');
         req.session.nickname = maybeUser.nickname;
+        if (dbPlayer.findBySessionId(req.sessionID) !== null)
+            dbPlayer.findBySessionId(req.sessionID).nickname = maybeUser.nickname;
         res.redirect('/game');
     }
 });
@@ -555,7 +557,8 @@ wsGame.on('connection', function connection(ws) {
                 "maxScore": player.maxScore,
                 "level": player.level,
                 "maxLevel": player.maxLevel,
-                "state": player.state
+                "state": player.state,
+                "number": player.number
             }));
         }
     });

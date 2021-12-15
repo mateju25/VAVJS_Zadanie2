@@ -1,5 +1,5 @@
 // Matej Delincak
-
+// pre pustenie admin treba sa prihlasit => login: admin, password: admin
 const serverSide = require('./server-side');
 const http = require('http');
 let port = 8080;

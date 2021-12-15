@@ -10,6 +10,7 @@
         {
             "tag" : "input",
             "id":"numberInput",
+            "placeholder": "Number of game",
             "innerText" : "Number"
         },
         {

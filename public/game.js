@@ -74,6 +74,8 @@ document.getElementById('btnReset').addEventListener("click", () => {
 
 socket.addEventListener('message', function (event){
     let data = JSON.parse(event.data);
+    if (data.number !== number)
+        return;
     document.getElementById('levelId').innerHTML = 'Level: ' + data.level + '     ';
     document.getElementById('maxLevel').innerHTML = 'Max level: ' + data.maxLevel + '     ';
     document.getElementById('scoreId').innerHTML = 'Score: ' + data.score + '     ';
